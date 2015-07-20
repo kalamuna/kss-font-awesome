@@ -1,0 +1,14 @@
+{
+  "name": "kss-font-awesome",
+  "repository": "kalamuna/kss-font-awesome",
+  "description": "KSS Font Awesome",
+  "version": "0.0.1",
+  "keywords": ["fontawesome"],
+  "dependencies": {
+    "FortAwesome/Font-Awesome": "*"
+  },
+  "styles": [
+    "src/kss-font-awesome.css"
+  ],
+  "license": "MIT"
+}

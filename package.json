@@ -1,0 +1,23 @@
+{
+  "name": "kss-font-awesome",
+  "description": "KSS Styleguide for Font Awesome",
+  "version": "0.0.1",
+  "author": {
+    "name": "Kalamuna",
+    "url": "http://kalamuna.com"
+  },
+  "main": "src/kss-font-awesome.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kalamuna/kss-font-awesome.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "kss-node src --css http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
+    "deploy": "gh-pages -d styleguide"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.3.1",
+    "kss": "*"
+  }
+}
