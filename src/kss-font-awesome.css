@@ -3,7 +3,7 @@ Font Awesome
 
 <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> gives you scalable vector icons that can instantly be customized, size, color, drop shadow, and anything that can be done with the power of CSS.
 
-Styleguide 6.0
+Styleguide font-awesome
 */
 
 /*
@@ -19,11 +19,11 @@ Markup:
 .fa-camera-retro - Camera Retro
 .fa-thumbs-o-up - Thumbs Up
 
-Styleguide 6.1
+Styleguide font-awesome.icons
 */
 
 /*
-Larger Icons
+Sizes
 
 To increase icon sizes relative to their container, use the <code>fa-lg</code> (33% increase), <code>fa-2x</code>, <code>fa-3x</code>, <code>fa-4x</code>, or <code>fa-5x</code> classes.
 
@@ -36,7 +36,7 @@ Markup:
 .fa-4x - 4x
 .fa-5x - 5x
 
-Styleguide 6.2
+Styleguide font-awesome.size
 */
 
 /*
@@ -52,7 +52,7 @@ Markup:
   <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
 </div>
 
-Styleguide 6.3
+Styleguide font-awesome.fw
 */
 
 /*
@@ -68,7 +68,7 @@ Markup:
   <li><i class="fa-li fa fa-square"></i>in lists</li>
 </ul>
 
-Styleguide 6.4
+Styleguide font-awesome.li
 */
 
 /*
@@ -82,7 +82,7 @@ Markup:
 And then one fine morning— So we beat on, boats against the
 current, borne back ceaselessly into the past.</p>
 
-Styleguide 6.5
+Styleguide font-awesome.styled
 */
 
 /*
@@ -99,7 +99,7 @@ Markup:
 .fa-spin - Spin
 .fa-pulse - Pulse
 
-Styleguide 6.6
+Styleguide font-awesome.animated
 */
 
 /*
@@ -116,7 +116,7 @@ Markup:
 .fa-flip-horizontal - Flip Horizontal
 .fa-flip-vertical - Flip Vertical
 
-Styleguide 6.7
+Styleguide font-awesome.rotate
 */
 
 /*
@@ -146,5 +146,5 @@ fa-terminal on fa-square<br>
 </span>
 fa-ban on fa-camera
 
-Styleguide 6.8
+Styleguide font-awesome.stack
 */
