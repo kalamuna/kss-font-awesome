@@ -18,8 +18,9 @@ Markup:
 
 .fa-camera-retro - Camera Retro
 .fa-thumbs-o-up - Thumbs Up
+.fa-cogs - Cogs
 
-Styleguide font-awesome.icons
+Styleguide font-awesome.1
 */
 
 /*
@@ -36,7 +37,7 @@ Markup:
 .fa-4x - 4x
 .fa-5x - 5x
 
-Styleguide font-awesome.size
+Styleguide font-awesome.2
 */
 
 /*
@@ -52,7 +53,7 @@ Markup:
   <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
 </div>
 
-Styleguide font-awesome.fw
+Styleguide font-awesome.3
 */
 
 /*
@@ -68,7 +69,7 @@ Markup:
   <li><i class="fa-li fa fa-square"></i>in lists</li>
 </ul>
 
-Styleguide font-awesome.li
+Styleguide font-awesome.4
 */
 
 /*
@@ -82,7 +83,7 @@ Markup:
 And then one fine morning— So we beat on, boats against the
 current, borne back ceaselessly into the past.</p>
 
-Styleguide font-awesome.styled
+Styleguide font-awesome.5
 */
 
 /*
@@ -99,7 +100,7 @@ Markup:
 .fa-spin - Spin
 .fa-pulse - Pulse
 
-Styleguide font-awesome.animated
+Styleguide font-awesome.6
 */
 
 /*
@@ -116,7 +117,7 @@ Markup:
 .fa-flip-horizontal - Flip Horizontal
 .fa-flip-vertical - Flip Vertical
 
-Styleguide font-awesome.rotate
+Styleguide font-awesome.7
 */
 
 /*
@@ -124,27 +125,7 @@ Stacked Icons
 
 To stack multiple icons, use the <code>fa-stack</code> class on the parent, the <code>fa-stack-1x</code> for the regularly sized icon, and <code>fa-stack-2x</code> for the larger icon. <code>fa-inverse</code> can be used as an alternative icon color. You can even throw larger icon classes on the parent to get further control of sizing.
 
-Markup:
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-twitter fa-stack-1x"></i>
-</span>
-fa-twitter on fa-square-o<br>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-</span>
-fa-flag on fa-circle<br>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x"></i>
-  <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-</span>
-fa-terminal on fa-square<br>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-camera fa-stack-1x"></i>
-  <i class="fa fa-ban fa-stack-2x text-danger"></i>
-</span>
-fa-ban on fa-camera
+Markup: kss-font-awesome.stacked.html
 
-Styleguide font-awesome.stack
+Styleguide font-awesome.8
 */

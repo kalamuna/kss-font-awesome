@@ -1,7 +1,7 @@
 {
   "name": "kss-font-awesome",
   "description": "KSS Styleguide for Font Awesome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Kalamuna",
     "url": "http://kalamuna.com"
@@ -13,11 +13,14 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "kss-node src --css http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
-    "deploy": "gh-pages -d styleguide"
+    "test": "kss-node src --css http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css",
+    "deploy": "gh-pages -d styleguide",
+    "prestart": "npm run test",
+    "start": "http-server styleguide"
   },
   "devDependencies": {
     "gh-pages": "^0.8.0",
+    "http-server": "^0.9.0",
     "kss": "*"
   }
 }
